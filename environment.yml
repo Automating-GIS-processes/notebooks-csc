@@ -1,0 +1,16 @@
+name: autogis-environment
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.5
+  - geopandas
+  - geopy
+  - rasterio
+  - rasterstats
+  - osmnx
+  - imageio
+  - pip:
+    - git+https://github.com/mullenkamp/PyCRS
